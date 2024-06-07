@@ -18,8 +18,9 @@ img {
   justify-content: space-between;
   align-items: start;
   background-image: url("../assets/img/pattern_blue.jpg");
+
   /* background-color: aqua; */
-  height: 40vh;
+  height: 35vh;
   z-index: 89;
   border-bottom-left-radius: 80px;
   border-bottom-right-radius: 80px;

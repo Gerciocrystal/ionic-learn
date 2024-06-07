@@ -17,6 +17,7 @@ import ExploreContainer from "../components/ExploreContainer";
 import "./Tab1.css";
 import MenuComponect from "../components/MenuComponect";
 import SearchBar from "../components/SearchBar";
+import MenuItem from "../components/MenuItem";
 
 const Tab1: React.FC = () => {
   return (
@@ -24,9 +25,6 @@ const Tab1: React.FC = () => {
       <MenuComponect />
       <IonPage id="main-content">
         <div className="wrapper-main">
-          {/* <IonHeader>
-            <IonToolbar> */}
-
           <IonItem color="transparent" style={{ borderBottom: "none" }}>
             <IonAvatar>
               <img
@@ -42,9 +40,9 @@ const Tab1: React.FC = () => {
           <IonButtons>
             <IonMenuButton className="humburger"></IonMenuButton>
           </IonButtons>
-          {/* </IonToolbar>
-          </IonHeader> */}
+          {/* Componects extern */}
           <SearchBar />
+          <MenuItem />
         </div>
 
         <IonContent fullscreen className="ion-padding">
