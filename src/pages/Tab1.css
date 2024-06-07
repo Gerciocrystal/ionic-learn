@@ -66,3 +66,6 @@ ion-item {
 .avatar-wrapper {
   display: flex;
 }
+#main-content {
+  background-color: rgb(241 245 249);
+}

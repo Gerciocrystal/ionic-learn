@@ -1,6 +1,6 @@
 .menu-content-header {
   position: absolute;
-  bottom: 0%;
+  bottom: -6%;
   left: 5%;
   right: 5%;
   width: 90%;
@@ -8,5 +8,5 @@
   background-color: white;
   border-radius: 10px;
   padding: 10px;
-  box-shadow: 3px 3px 2px #00000054;
+  box-shadow: 3px 3px 2px #ececec;
 }

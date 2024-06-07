@@ -44,8 +44,7 @@ const Tab1: React.FC = () => {
           <SearchBar />
           <MenuItem />
         </div>
-
-        <IonContent fullscreen className="ion-padding">
+        <IonContent fullscreen className="ion-padding " color="light">
           <ExploreContainer name="Tab 1 page 2" />
         </IonContent>
       </IonPage>
