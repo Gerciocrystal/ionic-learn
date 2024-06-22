@@ -1,0 +1,29 @@
+.serch-content {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  right: 5%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 8px;
+  /* height: ; */
+}
+
+ion-input.custom {
+  --background: white;
+  /* --color: #fff; */
+  /* --placeholder-color: #ddd; */
+  /* --placeholder-opacity: 0.8; */
+  /* --height: 25px; */
+
+  --border-radius: 8px;
+
+  --padding-bottom: 0px;
+  --padding-end: 10px;
+  --padding-start: 10px;
+  --padding-top: 0px;
+}

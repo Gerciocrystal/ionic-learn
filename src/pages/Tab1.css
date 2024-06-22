@@ -1,0 +1,71 @@
+div,
+p,
+h1,
+h2,
+h3 {
+  padding: 0;
+  margin: 0;
+}
+img {
+  background-color: transparent;
+}
+.wrapper-main {
+  position: relative;
+  padding: 5px;
+  padding-top: 25px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  background-image: url("../assets/img/pattern_blue.jpg");
+
+  /* background-color: aqua; */
+  height: 35vh;
+  z-index: 89;
+  border-bottom-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+}
+.humburger {
+  color: white;
+}
+.avatar-wrapper {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: -2px;
+  /* align-items: center; */
+  /* justify-content: flex-start; */
+}
+.welcome {
+  padding-left: 10px;
+  color: white;
+  font-size: 10px;
+}
+.name-class {
+  font-size: 14px;
+  margin: 3px auto;
+  color: white;
+  font-size: bold;
+}
+
+ion-item {
+  /* --background: #19422d; */
+  --color: transparent;
+
+  /* --border-color: #fff; */
+  /* --border-style: dashed; */
+  /* --border-width: 2px; */
+  --border-radius: 1230px;
+  --border: orange;
+  --ripple-color: purple;
+
+  --detail-icon-color: white;
+  --detail-icon-opacity: 0;
+  --detail-icon-font-size: 24px;
+}
+.avatar-wrapper {
+  display: flex;
+}
+#main-content {
+  background-color: rgb(241 245 249);
+}
